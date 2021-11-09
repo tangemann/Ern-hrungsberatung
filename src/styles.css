@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+/* for sidenav to take a whole page */
+html, body { 
+    margin: 0;
+    height: 100%;
+}
+
+.mat-toolbar.mat-primary {
+    background-color: #a356cb;
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+    background-color: #a356cb;
+}
