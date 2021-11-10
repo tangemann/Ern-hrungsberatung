@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/bddf7876-2e73-4dd4-9edf-13942d0c9328/resourceGroups/vital-rg/providers/Microsoft.Web/sites/VitalDenise",
+    "appService.deploySubpath": "dist\\VitalDenise"
+}

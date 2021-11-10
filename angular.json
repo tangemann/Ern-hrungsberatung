@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Denise-Hartmann-Ernaehrungsberatung": {
+    "VitalDenise": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
