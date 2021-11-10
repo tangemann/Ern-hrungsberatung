@@ -11,9 +11,22 @@ section div + p{
     padding-bottom: 20px; 
 }
 mat-tab-group {
+    padding-top: 30px;
     text-align: center;
 }
  
 mat-tab-group p {
     padding-top: 20px;
 }
+
+mat-lab {
+    padding-top: 10px;
+}
+
+.tab-icon{
+    margin-right: 8px;
+}
+
+.about-me-card {
+    max-width: 400px;
+  }

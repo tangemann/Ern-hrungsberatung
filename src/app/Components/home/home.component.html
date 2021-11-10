@@ -1,26 +1,44 @@
 <mat-tab-group mat-align-tabs="center">
   <mat-tab>
     <ng-template mat-tab-label>
-      <mat-icon class="example-tab-icon">face_women</mat-icon>
-      Wer bin ich
+      <mat-icon class="tab-icon">face</mat-icon>
+      Über mich
     </ng-template>
-    Content 1
+   
+    <mat-card class="about-me-card">
+      <mat-card-header>
+        <mat-card-title>Denise Hartmann</mat-card-title>
+        <mat-card-subtitle>Ernährungsberaterin</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+      <mat-card-content>
+        <p>
+          The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+          A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+          bred for hunting.
+        </p>
+      </mat-card-content>
+    </mat-card>
   </mat-tab>
 
   <mat-tab>
     <ng-template mat-tab-label>
-      <mat-icon class="example-tab-icon">thumb_up</mat-icon>
-      Second
+      <mat-icon class="tab-icon">how_to_reg</mat-icon>
+      Wofür stehe ich?
     </ng-template>
-    Content 2
-  </mat-tab>
-
-  <mat-tab>
-    <ng-template mat-tab-label>
-      <mat-icon class="example-tab-icon">thumb_up</mat-icon>
-      Third
-    </ng-template>
-
-    Content 3
-  </mat-tab>
+    <mat-card class="about-me-card">
+      <mat-card-header>
+        <mat-card-title>Denise Hartmann</mat-card-title>
+        <mat-card-subtitle>Ernährungsberaterin</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+      <mat-card-content>
+        <p>
+          The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+          A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+          bred for hunting.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-tab>  
 </mat-tab-group>
