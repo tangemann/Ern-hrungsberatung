@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/Denise-Hartmann-Ernaehrungsberatung'),
+      dir: require('path').join(__dirname, './coverage/VitalDenise'),
       subdir: '.',
       reporters: [
         { type: 'html' },
