@@ -12,6 +12,7 @@ import { HeaderComponent } from './components/navigation/header/header.component
 import { SidenavListComponent } from './components/navigation/sidenav-list/sidenav-list.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ServiceComponent } from './components/service/service.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [	
@@ -22,6 +23,7 @@ import { ServiceComponent } from './components/service/service.component';
     SidenavListComponent,
     ContactComponent,
     ServiceComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

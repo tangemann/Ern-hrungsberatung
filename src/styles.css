@@ -12,3 +12,11 @@ html, body {
 .mat-tab-body-content {
     display: inline-flex;
 }
+
+.mat-card-footer {
+    background-color: #a356cb;
+}
+
+.mat-divider {
+    background-color:  #a356cb;
+}

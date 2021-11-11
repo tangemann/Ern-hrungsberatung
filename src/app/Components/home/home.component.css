@@ -29,4 +29,14 @@ mat-lab {
 
 .about-me-card {
     max-width: 400px;
-  }
+}
+
+.section-welcome {
+    position: relative;
+    text-align: center;
+    color: #a356cb;
+}
+
+.section-welcome > h1 {
+    padding-top: 15px;
+}

@@ -1,0 +1,17 @@
+.footer-container {
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: inline-flex;
+}
+
+.mat-icon{
+    color: white;
+    padding-top: 10px;
+}
+
+.footer-text {
+    color: white;
+    padding-left: 5px;
+    padding-top: 8px;
+}
